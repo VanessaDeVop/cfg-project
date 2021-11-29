@@ -1,0 +1,46 @@
+.symbol{
+    padding: 0px 0px 0px 320px;
+    font-size: 80px;
+    color: rgb(62, 54, 54);
+}
+.women{
+    color:rgb(186, 41, 164);
+}
+.in,.more{
+    color: rgb(51, 178, 216);
+}
+.tech{
+    color:rgb(98, 232, 98);
+}
+
+html{
+    font-family: 'Jost', sans-serif;
+}
+
+h1,h2{
+    color: white;
+    font-size: 100px;
+}
+p{
+    font-size: 30px;
+    color: white;
+}
+
+body {
+    width: 800px;
+    margin: 0px auto;
+    background-color: rgb(40, 26, 26);
+    padding: 0 0px 0px 20px;
+     }
+.footer {
+    font-size: 30px;
+    color: white;
+    padding: 0 0px 100px 0px;
+    
+}
+.boxed {
+    background-color: rgb(99, 81, 81);
+    border-radius: 10px;
+    padding: 15px 20px 10px 20px;
+    margin: 260px;
+  }
