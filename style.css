@@ -14,6 +14,7 @@
     font-family: 'Jost', sans-serif;
     flex-direction: column;
     padding-top: 30px;
+    padding-bottom: 50px;
 }
 .symbol{
     padding-top: 0px;
@@ -55,17 +56,45 @@ body {
     min-height: 100vh;
      }
 }
-.footer {
+.findmore {
     font-size: 30px;
     color: white;
+    padding-top: 500px;
     
 }
 .boxed {
     font-size: 30px;
     background-color: rgb(121, 105, 105);
     border-radius: 10px;
-    padding: 15px 20px 10px 20px;
+    padding: 6px 20px 10px 20px;
     margin: 260px;
   }
 
 #carouselExampleControls 
+
+.footer {
+    display: flex;  
+    justify-content: center;  
+    background-color: #666;
+    height: 100px;
+    padding: 20px;
+    padding-top: 40px;
+  }
+  
+.footer a {
+    margin: 5px;
+    text-decoration: none!important;
+    padding-top: 400px;
+  }
+  
+.social-icon {
+    display: inline-flex; 
+    width: 50px;
+    height: 50px;
+    color: #666;
+    background-color: white;
+    justify-content: center;  
+    align-items: center; 
+    border-radius: 50%; 
+  }
+  
