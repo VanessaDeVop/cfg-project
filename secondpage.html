@@ -1,6 +1,7 @@
 <html> 
    <head>
-      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Women code</title>
      <link href="https://fonts.googleapis.com/css2?family=Anton&family=Hammersmith+One&family=Josefin+Sans:wght@700&family=Jost:wght@700&display=swap" rel="stylesheet">
       <link href="style.css" rel="stylesheet" />
@@ -8,58 +9,97 @@
      <body>
         <nav class="navbar navbar-expand-md navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">CFG Project</a>
+              <a class="navbar-brand" href="#">CFG<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bookmark-heart-fill" viewBox="0 0 16 16">
+                <path d="M2 15.5a.5.5 0 0 0 .74.439L8 13.069l5.26 2.87A.5.5 0 0 0 14 15.5V2a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v13.5zM8 4.41c1.387-1.425 4.854 1.07 0 4.277C3.146 5.48 6.613 2.986 8 4.412z"/>
+              </svg></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">&lt;Home&gt;</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./secondpage.html">The-icons</a>
+                    <a class="nav-link active" href="./secondpage.html">&lt;Page 2&gt;</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="./thirdpage.html">&lt;Page 3&gt;</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
+          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./img/eniac_5_0.jpeg" class="d-block w-100" alt="oldpic">
+                <img src="./img/eniac_5_0.jpeg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/History of Women in Tech.jpeg" class="d-block w-100" alt="oldpic2">
+                <img src="./img/History of Women in Tech.jpeg" class="d-block w-100" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./img/images-1.fit_lim.size_1400x.v1611694910.jpg" class="d-block w-100" alt="oldpic3">
+                <img src="./img/images-1.fit_lim.size_1400x.v1611694910.jpg" class="d-block w-100" alt="...">
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-        <h1><span class= "symbol">&lt;&#9792;&gt;</span></h1>
-            <h1>&lt;<span class= "women">women</span>-<span class= "in">in</span>-<span class= "tech">tech</span>&gt;</h1>
-       <span class= "boxed"><a href="page2.html" style="text-decoration:none" target="_blank"><span class= "footer"><span class= "more">Page 1</span></a></span>
+        <div class="container" id="section-1">
+            <h2>1. Ada Lovelace</h2>
+            <p>Famous women in technology
+                Ada Lovelace was born in 1815 and died in 1852. 
+                Ada is referred to as the first programmer because 
+                she had written notes that explained how the notion of a
+                 specific engine could transition calculation to computation. 
+                 She is one of the famous women in technology and every second Tuesday in October is known as Ada Lovelace Day to celebrate the achievements of women in STEM careers.
+            </p>
+          </div>
+    
+          <hr/>
+    
+          <div class="container" id="section-2">
+            <h2>2. Grace Hopper</h2>
+            <p>
+                Grace Hopper was born in 1906 and died in 1992, she was born in New York and attended Yale University in 1930 and eventually received a PH. D in mathematics. In 1943 she joined the Naval Reserve and retired in 1966. During the years as a Naval Reserve, Grace joined the Eckert-Mauchly Computer Corp in 1949 where she designed a compiler which translated programmer’s instructions into computer codes. In 1957, her division developed the first English language data processing complier. After retiring from the Naval Reserve, she was recalled helping standardise the navy’s computer languages and at the age of 79, she was known as the oldest officer in the navy before she retired in 1986. She has been given several awards, one of them being awarded by Barack Obama as the Presidential Medal of Freedom in 2016.
+            </p></div>
+            <hr/>
+          <div class="container" id="section-3">
+    
+            <h2>3. Annie Easley</h2>
+            <p>
+                Annie was born in 1933 and died in 2011, she was born in Birmingham, Alabama and attended Xavier University where she majored in pharmacy for around 2 years. Shortly after finishing University, she met her husband and they moved to Cleveland. This is where Annie’s life changed for the better. As there was no pharmaceutical school nearby, she applied for a job at the National Advisory Committee for Aeronautics (NACA) and within 2 weeks had started working there. She was one of four African Americans who worked there and developed and implemented code which led to the development of the battery’s used in hybrid cars. She is well known for being one of the famous women in technology for encouraging women and people of her colour to study and enter STEM fields.</p>
+            <p>
+          </div>
+          <hr/>
+          <div class="container" id="section-2">
+            <h2>4. Mary Wilkes</h2>
+            <p>
+                Mary Wilkes was born in 1937 in Chicago and graduated from Wellesley College in 1959 with a degree in philosophy. She was told in the eighth grade by her geography teacher that she would be a computer programmer when she grew up. At the time Mary was unaware that this was going to become true. In her early years, she worked with computers such as the IBM 709 and IBM 704 for a year in 1959-1960. In 1961 she joined the digital computer group and contributed to the LNC development of TX-2, as she designed and wrote the operators manual for the final console design. She is known for helping develop the first personal computer and was also the first person to have a PC in her home.
+  </p>
+        </div>
+        <hr/>
+          <div class="container" id="section-3">
+          <h2>5. Adele Goldberg</h2>
+            <p>
+                Adele Goldberg was born in 1973 in Ohio and received a bachelor’s degree in mathematics from the University of Michigan and later received a PH. D in information science from the University of Chicago in 1973. In the 1970s, Adele was a researcher at the Xero Palo Alto Research Centre (PARC) and was the only women among the group of men who built the Smalltak-80 together. The Smalltalk-80 was a programming language which they developed the infrastructure and design for so windows could overlap on display screens, or formally known as Graphical User Interface (GUI). Adele presented the Smalltalk system to Steve Jobs who implemented many ideas in the alto into his Apple products. Therefore, Adele Goldberg is known as one of the famous women in technology who inspired Steve Jobs creation of the first Apple computer as, without her, the Apple desktop environment may not look the way it does today.
+                <p>
+          </div>
+
+    
+        
+ 
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
      </body>
-<br>
-    <div class="border-box"><h1></span><h3>&lt;<span class= "women">The</span>-<span class= "in">icons</span>&gt;</h3></div>
-    <div class="border-box"><h1></span><h3>&lt;<span class= "women">The</span>-<span class= "in">spotlight</span>&gt;</h3>
-</div></h4></div>
-      <p></p>
-          <footer>
-            </span>
+     <div id="container"><h1><span class= "boxed"><a href="thirdpage.html" style="text-decoration:none" target="_blank"><span class= "footer">&lt;<span class= "more">Next</span>-<span class= "more">Page</span>&gt;</a></span></h1></div>
+          </span>
+
     </footer>
 </html>
